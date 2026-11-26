@@ -1,0 +1,6 @@
+name = "monotone_1in3_layer3"
+version = "0.1.0"
+defaultTargets = ["Monotone1in3Layer3"]
+
+[[lean_lib]]
+name = "Monotone1in3Layer3"

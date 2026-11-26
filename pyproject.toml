@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monotone-1in3-sat"
+version = "0.1.0"
+description = "PD-PFGC constructive candidate algorithm, bit-complexity instrumentation, and empirical falsification harness for Monotone 1-in-3 SAT"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

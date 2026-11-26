@@ -1,0 +1,12 @@
+[package]
+name = "monotone_1in3_layer2"
+version = "0.1.0"
+edition = "2021"
+description = "Layer 2 (Rust) zero-allocation falsification harness for Hybrid Track C+D Monotone 1-in-3 SAT solver"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

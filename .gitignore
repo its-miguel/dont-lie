@@ -1,0 +1,40 @@
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Local agent / private config & secrets
+.gemini/
+.env
+.env.*
+*.pem
+*.key
+
+# Python build & cache artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Rust build artifacts
+rust_layer2/target/
+
+# Lean 4 / Lake build artifacts
+lean4_layer3/.lake/
+
+# LaTeX build intermediates
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.xdv
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/*.toc
